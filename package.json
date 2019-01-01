@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-from-while-to-if",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@babel/generator": "7.2.2",
+    "@babel/template": "7.2.2",
+    "@babel/traverse": "7.2.3",
+    "@babel/types": "7.2.2",
+    "babylon": "6.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@types/@babel": "latest",
+    "@types/babylon": "6.16.4",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
